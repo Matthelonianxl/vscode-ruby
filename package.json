@@ -55,7 +55,7 @@
     "minimatch": "^3.0.3",
     "ruby-method-locate": "*",
     "vscode": "^1.1.4",
-    "vscode-debugadapter": "^1.19.0",
+    "vscode-debugadapter": "^1.36.1",
     "vscode-debugprotocol": "^1.19.0",
     "xmldom": "^0.1.19"
   },
