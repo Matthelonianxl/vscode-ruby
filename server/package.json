@@ -11,7 +11,7 @@
     "tree-sitter": "^0.13.4",
     "tree-sitter-ruby": "^0.13.5",
     "vscode-languageserver": "^4.4.0",
-    "vscode-uri": "^1.0.5"
+    "vscode-uri": "^1.0.8"
   },
   "devDependencies": {
     "prebuild": "^7.6.0"
