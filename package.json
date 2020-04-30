@@ -57,7 +57,8 @@
     "vscode": "^1.1.4",
     "vscode-debugadapter": "^1.19.0",
     "vscode-debugprotocol": "^1.19.0",
-    "xmldom": "^0.1.19"
+    "xmldom": "^0.1.19",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.33",
@@ -87,7 +88,9 @@
     "postinstall": "node ./node_modules/vscode/bin/install",
     "update-all-grammars": "node scripts/update-all-grammars",
     "update-grammar": "node scripts/update-grammar atom/language-ruby",
-    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "activationEvents": [
     "onLanguage:ruby",
@@ -605,5 +608,6 @@
         ]
       }
     ]
-  }
+  },
+  "snyk": true
 }
