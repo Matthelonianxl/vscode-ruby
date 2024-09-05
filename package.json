@@ -50,7 +50,7 @@
     "url": "https://github.com/rubyide/vscode-ruby/issues"
   },
   "dependencies": {
-    "async": "^2.3.0",
+    "async": "^3.0.0",
     "lodash": "^4.17.3",
     "minimatch": "^3.0.3",
     "ruby-method-locate": "*",
