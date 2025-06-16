@@ -52,9 +52,9 @@
   "dependencies": {
     "async": "^2.3.0",
     "lodash": "^4.17.3",
-    "minimatch": "^3.0.3",
+    "minimatch": "^10.0.2",
     "ruby-method-locate": "*",
-    "vscode": "^1.1.4",
+    "vscode": "^1.1.37",
     "vscode-debugadapter": "^1.19.0",
     "vscode-debugprotocol": "^1.19.0",
     "xmldom": "^0.1.19"
